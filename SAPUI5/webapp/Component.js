@@ -25,8 +25,8 @@ sap.ui.define([
                 this.setModel(Models.createRecipient());
 
                 //set i18n
-                let i18nModel = new ResourceModel({ bundleName: "mrocaj.SAPUI5.i18n.i18n" });
-                this.setModel(i18nModel, "i18n");
+                // let i18nModel = new ResourceModel({ bundleName: "mrocaj.SAPUI5.i18n.i18n" });
+                // this.setModel(i18nModel, "i18n");
 
                 //Se recupera el controlador del dialogo
                 this._helloDialog = new HelloDialog(this.getRootControl());                
