@@ -29,7 +29,10 @@ sap.ui.define([
                 // this.setModel(i18nModel, "i18n");
 
                 //Se recupera el controlador del dialogo
-                this._helloDialog = new HelloDialog(this.getRootControl());                
+                this._helloDialog = new HelloDialog(this.getRootControl());     
+                
+                //Se inicializa el enrutamiento
+                this.getRouter().initialize();
             },
 
             exit: function () {
